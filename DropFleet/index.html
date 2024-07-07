@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/entrega-rapida.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>DropFleet</title>
+  </head>
+  <body>
+    
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="index.html" class="logo">Drop<span>Fleet</span>.</a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#Quem-somos">Quem Somos</a></li>
+      <li><a href="index.html#funcionalidades">Saiba Mais </a></li>
+      <li><a href="index.html#client">Clientes</a></li>
+      <li><a id="my" href="./assets/pages/rastreio.html">Meus Rastreios</a></li>
+      <div class="login-container">
+        <div class="login-button">
+          <a id="login" href=""><i class="fa-solid fa-user"></i>Perfil</a>
+        </div>
+        <ul class="dropdown">
+          <li><a href="../assets/pages/login.html">Login PF</a></li>
+          <li><a href="../assets/pages/login-pj.html">Login PJ</a></li>
+        </ul>
+      </div>
+    </ul>
+  </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="./assets/img/homem-caixa.png" alt="header" style="width: 110%; height: auto;" />
+      </div>
+      <div class="header__content">
+        <h3 class="section__subheader">VOCÊ ACHOU O MELHOR</h3>
+        <h1>Rastreador de Encomendas</h1>
+        <p style="text-align: justify;">  Basta digitar o código de rastreamento fornecido pelo serviço de transporte para acompanhar o status e a localização do seu pedido em tempo real.
+        </p>
+        <div class="header__btns">
+          <input type="text" id="caixa-de-texto" placeholder="Digite seu código aqui...">
+          <span><i class="ri-search-line" id="btn"></i></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container trip__container" id="Quem-somos">
+      <div class="trip__image">
+        <img src="./assets/img/trip.png" alt="trip" />
+      </div>
+      <div class="trip__content">
+        <h3 class="section__subheader">Trazendo Eficiência ao Comércio Eletrônico</h3>
+        <h2 class="section__header">Conheça a Dropfleet</h2>
+        <ul class="trip__list">
+          <li>
+            <div>
+              <p style="text-align: justify;">
+                
+                Somos a Dropfleet, uma equipe dedicada a simplificar o gerenciamento de pedidos para empresas de comércio eletrônico. Nossa plataforma intuitiva permite rastrear pedidos em tempo real, desde a compra até a entrega. Valorizamos transparência e inovação, estabelecendo parcerias com fornecedores de serviços postais globais. Junte-se a nós para otimizar seu processo de gerenciamento de pedidos e alcançar o sucesso no comércio eletrônico.
+              </p>
+            </div>
+          </li>
+          <li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="funcionalidades">
+      <h3 class="section__subheader">EXPLORANDO NOSSOS SERVIÇOS</h3>
+      <h2 class="section__header">A DropFleet proporciona:</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="./assets/img/seguro-de-viagem.png" alt="service" />
+          <h4>Segurança de Transporte</h4>
+          <p>
+            Garante aos clientes entregas seguras e confiáveis com integração global a serviços postais e de transporte.
+          </p>
+        </div>
+        <div class="service__card">
+          <img src="./assets/img/ecommerce.png" alt="service" />
+          <h4>Integração Fácil:</h4>
+          <p>
+            A Dropfleet se integra perfeitamente às plataformas de e-commerce, simplificando o gerenciamento de pedidos para os proprietários de lojas online.
+          </p>
+        </div>
+        <div class="service__card">
+          <img src="./assets/img/rastreamento (1).png" alt="service" />
+          <h4>Rastreamento em Tempo Real</h4>
+          <p>
+            Oferece aos clientes o acompanhamento instantâneo dos pedidos, gerando confiança e transparência no processo de entrega.
+          </p>
+        </div>
+        <div class="service__card">
+          <img src="./assets/img/notificacoes.png" alt="service" />
+          <h4>Notificações Personalizadas</h4>
+          <p>
+            Os clientes podem optar por receber notificações sobre mudanças no status de seus pedidos, como quando o pedido é processado, enviado ou entregue.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="section__container client__container" id="client">
+      <div class="client__content">
+        <h3 class="section__subheader">CLIENTES</h3>
+        <h2 class="section__header">O que as pessoas dizem sobre nós</h2>
+      </div>
+      <div class="client__swiper">
+        
+        <div class="swiper">
+          
+          <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="./assets/img/client-1.jpg" alt="client" />
+                <div class="client__card__content">
+                  <p>
+                    A DropFleet mudou completamente a maneira como gerencio minhas vendas online. Agora posso acompanhar meus pedidos em tempo real e garantir que meus clientes recebam suas encomendas com segurança e pontualidade. As notificações personalizadas também são um toque fantástico que me ajuda a manter meus clientes informados e engajados.
+                  </p>
+                  <h4>Ana Oliveira.</h4>
+                  <h5>Empreendedora</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="./assets/img/client-2.jpg" alt="client" />
+                <div class="client__card__content">
+                  <p>
+                    Estou muito satisfeito com a facilidade de uso da DropFleet. Como proprietário de uma pequena loja online, a integração perfeita com minha plataforma de e-commerce e o rastreamento simplificado de pedidos economizaram muito tempo e esforço. Além disso, a segurança proporcionada pela integração com os principais serviços postais me dá tranquilidade em relação às entregas.
+                  </p>
+                  <h4>David Santos</h4>
+                  <h5>Analista de Marketing Digital</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="./assets/img/client-3.jpg" alt="client" />
+                <div class="client__card__content">
+                  <p>
+                    A experiência do usuário da DropFleet é simplesmente excepcional. Como cliente, aprecio muito a interface intuitiva que me permite acompanhar meus pedidos com facilidade. Receber notificações sobre o status das minhas encomendas tornou todo o processo de compra online muito mais conveniente e confiável. Recomendo totalmente.
+                  </p>
+                  <h4>João Silva</h4>
+                  <h5>Gestor de E-commerce</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" style="margin-left: auto; margin-right: auto; max-width: 1100px; padding-left: 20px; padding-right: 20px;">
+      <div class="section__container footer__container" style="display: flex; justify-content: space-between;margin-right: -150px;">
+        <div class="footer__col" style="flex: 1;">
+          <div class="footer__logo">
+            <a href="#" class="logo">Drop<span>Fleet</span>.</a>
+          </div>
+          <p style="text-align: justify;">
+            Simplificando o Comércio Online. Nossa plataforma oferece tudo o que você precisa para navegar com facilidade no e-commerce, desde gestão de pedidos até integração com serviços de entrega.
+          </p>
+        </div>
+        <div class="footer__col" style="flex: 1; margin-left: 50px;">
+          <h4>Contato</h4>
+          <ul class="footer__links">
+            <li><a href="./assets/pages/faq.html">Help/FAQ</a></li>
+            <li><a href="#">+55 31 2527-9215</a></li>
+            <li><a href="#">dropfleetsuporte@gmail.com</a></li>
+            <li><a href="#">R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG, 30535-901</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__col" style="flex: 1;">
+          <h4>Redes Sociais</h4>
+          <ul
+            class="footer__socials"
+            style="list-style-type: none; padding: 0; margin: 0"
+          >
+            <li>
+              <a href="https://www.linkedin.com/in/dropfleet/"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/_dropfleet/"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="footer__bar" style="text-align: center; margin-top: 20px; padding: 10px;">
+        Copyright © 2024 Dropfleet Mastery. Todos os direitos reservados.
+      </div>
+    </footer>
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../codigo/assets/js/main.js"></script>
+  </body>
+</html>

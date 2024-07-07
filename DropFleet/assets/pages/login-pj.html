@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/login.css" />
+
+    <link
+      rel="shortcut icon"
+      href="assets/entrega-rapida.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../img/entrega-rapida.png"
+      type="image/x-icon"
+    />
+    <title>DropFleet</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="../../index.html" class="logo">Drop<span>Fleet</span>.</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../index.html#Quem-somos">Quem Somos</a></li>
+        <li><a href="../../index.html#funcionalidades">Saiba Mais </a></li>
+        <li><a href="../../index.html#client">Clientes</a></li>
+        <li>
+          <a id="my" href="rastreio.html">Meus Rastreios</a>
+        </li>
+        <div class="login-container">
+          <div class="login-button">
+            <a id="login" href=""><i class="fa-solid fa-user"></i>Perfil</a>
+          </div>
+          <ul class="dropdown">
+            <li><a href="login.html">Login PF</a></li>
+            <li><a href="login-pj.html">Login PJ</a></li>
+          </ul>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="card">
+        <h1>Entrar</h1>
+
+        <div id="msgErro"></div>
+
+        <div class="label-float">
+          <input type="text" id="cnpjEmail" placeholder=" " />
+          <label id="cnpjEmailLabel" for="cnpjEmail">CNPJ ou E-mail</label>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="senha" placeholder=" " />
+          <label id="senhaLabel" for="senha">Senha</label>
+          <i class="fa-solid fa-eye" id="verSenha"></i>
+        </div>
+
+        <div class="justify-center">
+          <button id="botao-entrar">Entrar</button>
+        </div>
+
+        <div class="justify-center">
+          <hr />
+        </div>
+
+        <p>
+          Não tem uma conta?
+          <a href="cadastro-pj.html">Cadastre-se</a>
+        </p>
+      </div>
+    </div>
+
+    <footer
+      class="footer"
+      style="
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 100px;
+      "
+    >
+      <div
+        class="section__container footer__container"
+        style="
+          display: flex;
+          justify-content: space-between;
+          margin-right: -150px;
+        "
+      >
+        <div class="footer__col" style="flex: 1">
+          <div class="footer__logo">
+            <a href="#" class="logo">Drop<span>Fleet</span>.</a>
+          </div>
+          <p style="text-align: justify">
+            Simplificando o Comércio Online. Nossa plataforma oferece tudo o que
+            você precisa para navegar com facilidade no e-commerce, desde gestão
+            de pedidos até integração com serviços de entrega.
+          </p>
+        </div>
+        <div class="footer__col" style="flex: 1; margin-left: 50px">
+          <h4>Contato</h4>
+          <ul class="footer__links">
+            <li><a href="../pages/faq.html">Help/FAQ</a></li>
+            <li><a href="#">+55 31 2527-9215</a></li>
+            <li><a href="">dropfleetsuporte@gmail.com</a></li>
+            <li>
+              <a href="#"
+                >R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte -
+                MG, 30535-901</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col" style="flex: 1">
+          <h4>Redes Sociais</h4>
+          <ul
+            class="footer__socials"
+            style="list-style-type: none; padding: 0; margin: 0"
+          >
+            <li>
+              <a href="https://www.linkedin.com/in/dropfleet/"
+                ><i class="ri-linkedin-fill"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/_dropfleet/"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="footer__bar"
+        style="text-align: center; margin-top: 20px; padding: 10px"
+      >
+        Copyright © 2024 Dropfleet Mastery. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/login-pj.js"></script>
+  </body>
+</html>
